@@ -1,0 +1,77 @@
+.hero {
+  -webkit-background-size: contain !important;
+  -moz-background-size: contain !important;
+  -o-background-size: contain !important;
+  background-size: contain !important;
+  background-repeat: round !important;
+  width: 100% !important; }
+
+body {
+  font-family: 'The-Sans-Plain';
+  direction: rtl;
+  text-align: right; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'The-Sans-Plain'; }
+
+header .container .row > div ul {
+  text-align: left; }
+  @media (max-width: 769px) {
+    header .container .row > div ul {
+      text-align: center; } }
+
+.hero {
+  background: url(https://i.postimg.cc/J4GFdxXg/hero-bg.jpg);
+  height: 360px; }
+  @media (max-width: 576px) {
+    .hero {
+      background: url(https://i.postimg.cc/WbF973Lc/hero-mobile-bg-arabic.png); } }
+  @media (min-width: 577px) and (max-width: 992px) {
+    .hero {
+      background: url(https://i.postimg.cc/c42zq3MJ/hero-tablet-bg-arabic.jpg); } }
+  @media (min-width: 1600px) {
+    .hero {
+      height: 400 !important; } }
+
+.faq .container .row > div h5::after {
+  right: auto;
+  left: 10px; }
+
+.faq .container .row > div h5 {
+  padding: 15px; }
+
+.faq .container .row > div h5 i {
+  margin-right: auto;
+  margin-left: 10px; }
+
+.custom .container .row > div h4::after {
+  right: auto;
+  left: -55px; }
+
+.copyright .container .row > div:last-of-type {
+  text-align: left; }
+
+header .container .row > div:nth-of-type(1) span {
+  right: auto;
+  left: 20px; }
+
+.main-heading h3::after {
+  right: auto;
+  left: -55px; }
+
+.register form .register-group i {
+  left: auto;
+  right: 15px; }
+
+.register form .register-group input, .register form .register-group select {
+  padding: 10px 50px 10px 10px; }
+
+.register form .upsubmit input {
+  padding-right: auto !important;
+  padding-left: 50px; }
+
+.register form .upsubmit i {
+  right: auto;
+  left: -30px; }
+
+/*# sourceMappingURL=style-rtl.css.map */

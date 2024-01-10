@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?179f9a1401de245b818511983e7ecbd8") format("truetype"),
+url("./flaticon.woff?179f9a1401de245b818511983e7ecbd8") format("woff"),
+url("./flaticon.woff2?179f9a1401de245b818511983e7ecbd8") format("woff2"),
+url("./flaticon.eot?179f9a1401de245b818511983e7ecbd8#iefix") format("embedded-opentype"),
+url("./flaticon.svg?179f9a1401de245b818511983e7ecbd8#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-clock:before {
+    content: "\f101";
+}
+.flaticon-weightlifter:before {
+    content: "\f102";
+}
+.flaticon-heartbeat:before {
+    content: "\f103";
+}
+.flaticon-diet:before {
+    content: "\f104";
+}
+.flaticon-biceps:before {
+    content: "\f105";
+}
+.flaticon-arrow-down-sign-to-navigate:before {
+    content: "\f106";
+}
+.flaticon-conversation:before {
+    content: "\f107";
+}
+.flaticon-diet-1:before {
+    content: "\f108";
+}
+.flaticon-back-pain:before {
+    content: "\f109";
+}
+.flaticon-healthcare:before {
+    content: "\f10a";
+}
+.flaticon-six-pack:before {
+    content: "\f10b";
+}
+.flaticon-physical-therapy:before {
+    content: "\f10c";
+}
+.flaticon-muscular:before {
+    content: "\f10d";
+}
+.flaticon-muscle:before {
+    content: "\f10e";
+}
+.flaticon-health:before {
+    content: "\f10f";
+}

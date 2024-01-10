@@ -1,0 +1,85 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?179f9a1401de245b818511983e7ecbd8") format("truetype"),
+url("./flaticon.woff?179f9a1401de245b818511983e7ecbd8") format("woff"),
+url("./flaticon.woff2?179f9a1401de245b818511983e7ecbd8") format("woff2"),
+url("./flaticon.eot?179f9a1401de245b818511983e7ecbd8#iefix") format("embedded-opentype"),
+url("./flaticon.svg?179f9a1401de245b818511983e7ecbd8#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "clock": "\f101",
+    "weightlifter": "\f102",
+    "heartbeat": "\f103",
+    "diet": "\f104",
+    "biceps": "\f105",
+    "arrow-down-sign-to-navigate": "\f106",
+    "conversation": "\f107",
+    "diet-1": "\f108",
+    "back-pain": "\f109",
+    "healthcare": "\f10a",
+    "six-pack": "\f10b",
+    "physical-therapy": "\f10c",
+    "muscular": "\f10d",
+    "muscle": "\f10e",
+    "health": "\f10f",
+);
+
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-weightlifter:before {
+    content: map-get($flaticon-map, "weightlifter");
+}
+.flaticon-heartbeat:before {
+    content: map-get($flaticon-map, "heartbeat");
+}
+.flaticon-diet:before {
+    content: map-get($flaticon-map, "diet");
+}
+.flaticon-biceps:before {
+    content: map-get($flaticon-map, "biceps");
+}
+.flaticon-arrow-down-sign-to-navigate:before {
+    content: map-get($flaticon-map, "arrow-down-sign-to-navigate");
+}
+.flaticon-conversation:before {
+    content: map-get($flaticon-map, "conversation");
+}
+.flaticon-diet-1:before {
+    content: map-get($flaticon-map, "diet-1");
+}
+.flaticon-back-pain:before {
+    content: map-get($flaticon-map, "back-pain");
+}
+.flaticon-healthcare:before {
+    content: map-get($flaticon-map, "healthcare");
+}
+.flaticon-six-pack:before {
+    content: map-get($flaticon-map, "six-pack");
+}
+.flaticon-physical-therapy:before {
+    content: map-get($flaticon-map, "physical-therapy");
+}
+.flaticon-muscular:before {
+    content: map-get($flaticon-map, "muscular");
+}
+.flaticon-muscle:before {
+    content: map-get($flaticon-map, "muscle");
+}
+.flaticon-health:before {
+    content: map-get($flaticon-map, "health");
+}
